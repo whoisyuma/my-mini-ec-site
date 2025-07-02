@@ -1,0 +1,133 @@
+.empty {
+    margin: 50px;
+}
+
+.empty p {
+    font-size: 30px;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.empty a {
+    font-size: 20px;
+}
+
+.empty a:hover {
+    border-bottom: 1px solid black;
+}
+
+.cart {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.shoppingCart {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.cartDetail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 15px;
+}
+
+.cartItems {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItem {
+    background-color: #f7f7f7;
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.itemImg img {
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.itemInfo {
+    width: 100%;
+}
+
+.itemName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemName h2 {
+    font-size: 30px;
+}
+
+.itemName button {
+    background-color: #f7f7f7;
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    border: none;
+}
+
+.itemInfo p {
+    font-size: 25px;
+}
+
+.orderSummary {
+    flex: 3;
+    min-width: 350px;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderSummary h1 {
+    font-size: 30px;
+    border-bottom: 1px solid #999;
+}
+
+.totalItem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.orderTotal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.pay {
+    display: flex;
+    justify-content: right;
+    margin-top: auto;
+}
+
+.pay button {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.pay button:hover {
+    transform: translateY(-2px);
+}
+
+.pay button:active {
+    transform: translateY(0);
+}
