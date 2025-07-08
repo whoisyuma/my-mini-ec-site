@@ -103,7 +103,7 @@ You can view the deployed site here:
 
 ### Top Page
 
-![Screenshot](./public/my-mini-ec-site)
+![Screenshot](./public/my-mini-ec-site.png)
 
 ## Contact
 
